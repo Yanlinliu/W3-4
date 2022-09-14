@@ -1,0 +1,101 @@
+nav, footer {
+  background-color: #AA0601;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.navList {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.navList li a {
+  color: white;
+  display: block;
+  line-height: 1.5;
+}
+
+.footerNav_container {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.footerNav_container .footerNav_link {
+  display: flex;
+  align-items: center;
+}
+.footerNav_container .footerNav_link li {
+  margin-right: 3rem;
+}
+.footerNav_container .footerNav_link li:last-child {
+  margin-right: 0;
+}
+.footerNav_container .footerNav_link li a {
+  color: white;
+  display: block;
+}
+.footerNav_container .footerNav_icon {
+  display: flex;
+}
+.footerNav_container .footerNav_icon li {
+  margin-right: 2rem;
+}
+.footerNav_container .footerNav_icon li:last-child {
+  margin-right: 0;
+}
+.footerNav_container .footerNav_icon li img {
+  width: 3rem;
+}
+
+.footerContact {
+  padding-bottom: 2rem;
+  border-bottom: 1px white solid;
+}
+.footerContact .contactItem {
+  display: flex;
+  align-items: center;
+}
+.footerContact .contactItem:first-child {
+  margin-bottom: 0.5rem;
+}
+.footerContact .contactItem img {
+  width: 2.25rem;
+  margin-right: 1.5rem;
+}
+.footerContact .contactItem p {
+  font-size: 2rem;
+  color: white;
+}
+
+.copyright {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.copyright ul {
+  display: flex;
+}
+.copyright ul li:first-child {
+  margin-right: 3rem;
+}
+.copyright ul li a {
+  color: white;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+header .headerContent {
+  display: inline-block;
+}
+
+/*# sourceMappingURL=layout.css.map */
