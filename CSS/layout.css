@@ -21,41 +21,29 @@ nav, footer {
   line-height: 1.5;
 }
 
-.footerNav_container {
-  padding-top: 3rem;
+.footer {
   display: flex;
   justify-content: space-between;
+  padding-top: 3rem;
 }
-.footerNav_container .footerNav_link {
+
+.footerNav_link {
   display: flex;
-  align-items: center;
+  margin-bottom: 2.25rem;
 }
-.footerNav_container .footerNav_link li {
+.footerNav_link li {
   margin-right: 3rem;
 }
-.footerNav_container .footerNav_link li:last-child {
+.footerNav_link li:last-child {
   margin-right: 0;
 }
-.footerNav_container .footerNav_link li a {
+.footerNav_link li a {
   color: white;
   display: block;
-}
-.footerNav_container .footerNav_icon {
-  display: flex;
-}
-.footerNav_container .footerNav_icon li {
-  margin-right: 2rem;
-}
-.footerNav_container .footerNav_icon li:last-child {
-  margin-right: 0;
-}
-.footerNav_container .footerNav_icon li img {
-  width: 3rem;
 }
 
 .footerContact {
   padding-bottom: 2rem;
-  border-bottom: 1px white solid;
 }
 .footerContact .contactItem {
   display: flex;
@@ -71,6 +59,19 @@ nav, footer {
 .footerContact .contactItem p {
   font-size: 2rem;
   color: white;
+}
+
+.footerNav_icon {
+  display: flex;
+}
+.footerNav_icon li {
+  margin-right: 2rem;
+}
+.footerNav_icon li:last-child {
+  margin-right: 0;
+}
+.footerNav_icon li img {
+  width: 3rem;
 }
 
 .copyright {
