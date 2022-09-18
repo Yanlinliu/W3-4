@@ -99,4 +99,108 @@ header .headerContent {
   display: inline-block;
 }
 
+.faq {
+  padding: 5rem 0;
+}
+.faq h1 {
+  border-left: #9F1213 solid 0.5rem;
+  padding-left: 1rem;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+.faq h3 {
+  padding: 1.5rem 0;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+.faq .faqItem {
+  margin-bottom: 2rem;
+}
+.faq .faqItem:last-child {
+  margin-bottom: 0;
+}
+.faq .faqItem .quest {
+  font-weight: bolder;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.place {
+  padding: 5rem 0;
+}
+.place h1 {
+  border-left: #9F1213 solid 0.5rem;
+  padding-left: 1rem;
+  font-size: 3rem;
+  margin-bottom: 2.0625rem;
+}
+.place form {
+  margin: 2rem 0 2.5rem 0;
+  display: flex;
+  align-items: center;
+  width: 32%;
+}
+.place form .optionTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+.place form .selectLabel {
+  width: calc(100% - 7.5rem);
+}
+.place form .selectLabel select {
+  width: 100%;
+  border: #CED4DA 1px solid;
+  padding: 0.375rem 0.75rem;
+}
+.place .placeList {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2%;
+  flex-wrap: wrap;
+}
+.place .placeItem {
+  width: 32%;
+  margin-bottom: 3rem;
+}
+.place .placeItem h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-right: 1px solid rgba(0, 0, 0, 0.1254901961);
+  border-left: 1px solid rgba(0, 0, 0, 0.1254901961);
+}
+.place .placeItem .placeItemContentContainer {
+  border: 1px solid rgba(0, 0, 0, 0.1254901961);
+  border-bottom: none;
+  padding: 1rem 1.5rem;
+}
+.place .placeItem .placeItemContentContainer li {
+  margin-bottom: 0.5rem;
+}
+.place .placeItem .placeItemContentContainer li:last-child {
+  margin-bottom: 0;
+}
+.place .placeItem .placeIcon {
+  width: 1.125rem;
+  margin-right: 0.6875rem;
+}
+.place .placeItem .placeItemContent {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.place .placeItem .placeItemContent:last-child {
+  margin-bottom: 1rem;
+}
+.place .placeItem .button {
+  background-color: black;
+}
+.place .placeItem .button a {
+  color: white;
+  display: block;
+  font-size: 1.1875rem;
+  line-height: 3.1875rem;
+  text-align: center;
+}
+
 /*# sourceMappingURL=layout.css.map */
