@@ -45,6 +45,27 @@
   .footerNav_link {
     display: none !important;
   }
+  .footerNav_icon li img {
+    width: 2.5rem;
+  }
+  .copyrightLink {
+    font-size: 0.875rem;
+  }
+}
+@media (max-width: 414px) {
+  .footerContent .contactItem p {
+    font-size: 1rem;
+  }
+  .footerContent .contactItem img {
+    width: 1rem;
+  }
+  .footerNav_icon li img {
+    width: 1.5rem;
+  }
+  .copyright, .copyright ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
 }
 
 /*# sourceMappingURL=rwd.css.map */

@@ -42,9 +42,23 @@
 @media (max-width: 767px)
   .footerNav_link
     display: none !important
-  //.footerNav_icon
-    //width: 32px
-  //footer
-  //  .container
-  //    display: flex
-  //    justify-content: space-between
+  .footerNav_icon
+    li img
+      width: 2.5rem
+  .copyrightLink
+    font-size: .875rem
+
+
+@media (max-width: 414px )
+  .footerContent
+    .contactItem
+      p
+        font-size: 1rem
+      img
+        width: 1rem
+  .footerNav_icon
+    li img
+      width: 1.5rem
+  .copyright, .copyright ul
+    flex-direction: column
+    gap: .5rem
